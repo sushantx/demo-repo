@@ -12,35 +12,35 @@ such as boolean, char, int, short, byte, long, float, double, etc.
 
 **Examples:**
 >class JavaDataTypesExample{
-     public static void main(String args[])
-     {
-        byte byteVar = 12;
-        short shortVar = 37;
-        int intVar =80;
-        long longVar =898034892149L;
-        float floatVar = 20.563423424f;
-        double doubleVar = 20.12323423423468326;
-        boolean booleanVar = true;
-        char charVar ='A';
-        System.out.println("Value Of byte Variable is       " + byteVar);
-        System.out.println("Value Of short Variable is      " + shortVar);
-        System.out.println("Value Of int Variable is        " + intVar);
-        System.out.println("Value Of long Variable is       " + longVar);
-        System.out.println("Value Of float Variable is      " + floatVar);
-        System.out.println("Value Of double Variable is     " + doubleVar);
-        System.out.println("Value Of boolean Variable is    " + booleanVar);
-        System.out.println("Value Of char Variable is       " + charVar);
-     }
-    }
+>    public static void main(String args[])
+>    {
+>    byte byteVar = 12;
+>    short shortVar = 37;
+>    int intVar =80;
+>    long longVar =898034892149L;
+>    float floatVar = 20.563423424f;
+>    double doubleVar = 20.12323423423468326;
+>    boolean booleanVar = true;
+>    char charVar ='A';
+>    System.out.println("Value Of byte Variable is       " + byteVar);
+>    System.out.println("Value Of short Variable is      " + shortVar);
+>    System.out.println("Value Of int Variable is        " + intVar);
+>    System.out.println("Value Of long Variable is       " + longVar);
+>    System.out.println("Value Of float Variable is      " + floatVar);
+>    System.out.println("Value Of double Variable is     " + doubleVar);
+>    System.out.println("Value Of boolean Variable is    " + booleanVar);
+>    System.out.println("Value Of char Variable is       " + charVar);
+>    }
+>    }
 **Outputs:**
-Value Of byte Variable is       12
-Value Of short Variable is      37
-Value Of int Variable is        80
-Value Of long Variable is       898034892149
-Value Of float Variable is      20.563423
-Value Of double Variable is     20.123234234234683
-Value Of boolean Variable is    true
-Value Of char Variable is       A
+> Value Of byte Variable is       12
+> Value Of short Variable is      37
+> Value Of int Variable is        80
+> Value Of long Variable is       898034892149
+> Value Of float Variable is      20.563423
+> Value Of double Variable is     20.123234234234683
+> Value Of boolean Variable is    true
+> Value Of char Variable is       A
 
 # Reference data types:
 Non-Primitive types are those which is created by the programmer and are not defined by java. (except for String )
@@ -48,33 +48,33 @@ such as String, Array, classes, etc.
 
 **Examples:**
 >class Employee
-{
-   String name;
-    String aadhar;
-    String emailAddress;
-    int yearOfBirth;
-}
-class EmpDetail
-{
-public static void main(String[] args) {
-        Employee emp1 = new Employee(); // Reference Data type
-        emp 1.name = "Habib";
-        emp 1.aadhar = "4525-4545-4345-3423";
-        emp 1.emailAddress = "habib@abc.com";
-        Employee emp2 = new Employee(); // Reference Data type
-        emp 2.name = "Sachin";
-        emp 2. aadhar = "4563-7384-9031";
-        emp 2.yearOfBirth = 1974;
-        System.out.println("Name: " + emp 1.name);
-        System.out.println("Aadhar: " + emp 1.aadhar);
-        System.out.println("Email Address: " + emp 1.emailAddress);
-        System.out.println("Year Of Birth: " + emp 1.yearOfBirth);
-        System.out.println("Name: " + emp 2.name);
-        System.out.println("Aadhar: " + emp 2.aadhar);
-        System.out.println("Email Address: " + emp2.emailAddress);
-        System.out.println("Year Of Birth: " + emp2.yearOfBirth);
-    }
-}
+>{
+>  String name;
+>  String aadhar;
+>  String emailAddress;
+>  int yearOfBirth;
+>  }
+>  class EmpDetail
+>  {
+>  public static void main(String[] args) {
+>       Employee emp1 = new Employee(); // Reference Data type
+>       emp 1.name = "Habib";
+>       emp 1.aadhar = "4525-4545-4345-3423";
+>       emp 1.emailAddress = "habib@abc.com";
+>       Employee emp2 = new Employee(); // Reference Data type
+>       emp 2.name = "Sachin";
+>       emp 2. aadhar = "4563-7384-9031";
+>       emp 2.yearOfBirth = 1974;
+>       System.out.println("Name: " + emp 1.name);
+>       System.out.println("Aadhar: " + emp 1.aadhar);
+>       System.out.println("Email Address: " + emp 1.emailAddress);
+>       System.out.println("Year Of Birth: " + emp 1.yearOfBirth);
+>       System.out.println("Name: " + emp 2.name);
+>       System.out.println("Aadhar: " + emp 2.aadhar);
+>       System.out.println("Email Address: " + emp2.emailAddress);
+>       System.out.println("Year Of Birth: " + emp2.yearOfBirth);
+>       }
+>       }     
 * Here emp1 and emp2 are reference data types
 
 # Data Structures in Java
@@ -96,27 +96,27 @@ for example array, stack, queue, linked list, etc.
  **Code:**
  
  >class Main {
- public static void main(String[] args) {
-   // create an array
-   int[] age = {12, 4, 5, 2, 5};
-   // access each array elements
-   System.out.println("Accessing Elements of Array:");
-   System.out.println("First Element: " + age[0]);
-   System.out.println("Second Element: " + age[1]);
-   System.out.println("Third Element: " + age[2]);
-   System.out.println("Fourth Element: " + age[3]);
-   System.out.println("Fifth Element: " + age[4]);
- }
-}
+ >public static void main(String[] args) {
+ >// create an array
+ >int[] age = {12, 4, 5, 2, 5};
+ >// access each array elements
+ >System.out.println("Accessing Elements of Array:");
+ >System.out.println("First Element: " + age[0]);
+ >System.out.println("Second Element: " + age[1]);
+ >System.out.println("Third Element: " + age[2]);
+ >System.out.println("Fourth Element: " + age[3]);
+ >System.out.println("Fifth Element: " + age[4]);
+ >}
+ >}
 
 **Output:**
 
 >Accessing Elements of Array:
-First Element: 12
-Second Element: 4
-Third Element: 5
-Fourth Element: 2
-Fifth Element: 5
+>First Element: 12
+>Second Element: 4
+>Third Element: 5
+>Fourth Element: 2
+>Fifth Element: 5
 
 **Non-linear data structure:** In a non-linear data structure, data elements are attached hierarchically. the best example is trees, graph data structure where data is stored in the form of hierarchically
 
